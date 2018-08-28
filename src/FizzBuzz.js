@@ -1,5 +1,4 @@
-const FizzBuzz = (data = 0) => {
-  const num = Number(data);
+const FizzBuzz = (num) => {
   if (isNaN(num)) {
     return 'Informe um número válido!';
   } else if (num === 0) {
